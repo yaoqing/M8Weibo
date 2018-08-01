@@ -1,0 +1,23 @@
+不同平台之间编译参数对比
+ppc:    /Od /I "..\..\..\Include" /I "..\\" /I ".\\" /D "_DEBUG" /D "_WIN32_WCE=0x420" /D "UNDER_CE" /D "WIN32_PLATFORM_PSPC" /D "WINCE" /D "DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "LIBHTTPCE_EXPORTS" /D "LIBHTTP_DLL" /D "ARM" /D "_ARM_" /D "_UNICODE" /D "UNICODE" /D "_WINDLL" /Gm /EHsc /MTd /fp:fast /GR- /Yu"stdafx.h" /Fp"Pocket PC 2003 (ARMV4)\DLL Debug/libHttpCE.pch"  /Fo"Pocket PC 2003 (ARMV4)\DLL Debug/"  /Fd"Pocket PC 2003 (ARMV4)\DLL Debug/vc80.pdb"  /W3 /nologo /c /Zi /TP
+smart:  /Od                                          /D "_DEBUG" /D "_WIN32_WCE=0x420" /D "UNDER_CE" /D "WIN32_PLATFORM_WFSP" /D "WINCE" /D "DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "LIBHTTPCE_EXPORTS"                  /D "ARM" /D "_ARM_" /D "_UNICODE" /D "UNICODE" /D "_WINDLL" /Gm /EHsc /MTd /fp:fast /GR- /Yu"stdafx.h" /Fp"Smartphone 2003 (ARMV4)\DLL Debug/libHttpCE.pch" /Fo"Smartphone 2003 (ARMV4)\DLL Debug/" /Fd"Smartphone 2003 (ARMV4)\DLL Debug/vc80.pdb" /W3 /nologo /c /Zi /TP
+m8:     /Od                                          /D "_DEBUG" /D "_WIN32_WCE=0x600" /D "UNDER_CE"                          /D "WINCE"            /D "_WINDOWS"                                                      /D "ARM" /D "_ARM_" /D "UNICODE" /D "_UNICODE"              /Gm /EHsc /MTd /fp:fast /GR- /Fo"Debug/" /Fd"Debug/vc80.pdb"                                                                                                                            /W3 /nologo /c /Zi /TP
+
+不同平台之间连接参数对比
+ppc:    /OUT:"Pocket PC 2003 (ARMV4)\DLL Debug/libHttpCE.dll"  /INCREMENTAL /NOLOGO /DLL /MANIFEST:NO /NODEFAULTLIB:"oldnames.lib" /DEBUG /PDB:"Pocket PC 2003 (ARMV4)\DLL Debug/libHttpCE.pdb"  /STACK:65536,4096 /DYNAMICBASE:NO /IMPLIB:"Pocket PC 2003 (ARMV4)\DLL Debug/libHttpCE.lib"  /ERRORREPORT:PROMPT coredll.lib corelibc.lib ole32.lib oleaut32.lib uuid.lib commctrl.lib
+smart:  /OUT:"Smartphone 2003 (ARMV4)\DLL Debug/libHttpCE.dll" /INCREMENTAL /NOLOGO /DLL /MANIFEST:NO /NODEFAULTLIB:"oldnames.lib" /DEBUG /PDB:"Smartphone 2003 (ARMV4)\DLL Debug/libHttpCE.pdb" /STACK:65536,4096 /DYNAMICBASE:NO /IMPLIB:"Smartphone 2003 (ARMV4)\DLL Debug/libHttpCE.lib" /ERRORREPORT:PROMPT coredll.lib corelibc.lib ole32.lib oleaut32.lib uuid.lib commctrl.lib
+m8:     /OUT:"Debug\M8Weibo.exe"                                            /NOLOGO      /MANIFEST:NO /NODEFAULTLIB:"oldnames.lib" /DEBUG /PDB:"d:\M8Weibo\M8Weibo\Debug\M8Weibo.pdb"            /STACK:65536,4096 /DYNAMICBASE:NO                                                           /ERRORREPORT:PROMPT mzfc.lib platformapi.lib   coredll.lib corelibc.lib ole32.lib oleaut32.lib uuid.lib commctrl.lib
+
+
+
+
+相同平台之间编译参数对比
+smart:  /Od                                          /D "_DEBUG" /D "_WIN32_WCE=0x420" /D "UNDER_CE" /D "WIN32_PLATFORM_WFSP" /D "WINCE" /D "DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "LIBHTTPCE_EXPORTS"                  /D "ARM" /D "_ARM_" /D "_UNICODE" /D "UNICODE" /D "_WINDLL" /Gm /EHsc /MTd /fp:fast /GR- /Yu"stdafx.h" /Fp"Smartphone 2003 (ARMV4)\DLL Debug/libHttpCE.pch" /Fo"Smartphone 2003 (ARMV4)\DLL Debug/" /Fd"Smartphone 2003 (ARMV4)\DLL Debug/vc80.pdb" /W3 /nologo /c /Zi /TP
+smart:  /O2 /Os /D "NDEBUG" /D "_WIN32_WCE=0x420" /D "UNDER_CE" /D "WIN32_PLATFORM_WFSP" /D "WINCE" /D "_WINDOWS" /D "_USRDLL" /D "LIBHTTPCE_EXPORTS" /D "ARM" /D "_ARM_" /D "_UNICODE" /D "UNICODE" /D "_WINDLL" /FD /EHsc /MT /fp:fast /GR- /Yu"stdafx.h" /Fp"Smartphone 2003 (ARMV4)\DLL Release/libHttpCE.pch" /Fo"Smartphone 2003 (ARMV4)\DLL Release/" /Fd"Smartphone 2003 (ARMV4)\DLL Release/vc80.pdb" /W3 /nologo /c /Zi /TP
+相同平台之间连接参数对比
+smart:  /OUT:"Smartphone 2003 (ARMV4)\DLL Debug/libHttpCE.dll"  /INCREMENTAL     /NOLOGO /DLL /MANIFEST:NO /NODEFAULTLIB:"oldnames.lib" /DEBUG /PDB:"Smartphone 2003 (ARMV4)\DLL Debug/libHttpCE.pdb"   /STACK:65536,4096                   /DYNAMICBASE:NO /IMPLIB:"Smartphone 2003 (ARMV4)\DLL Debug/libHttpCE.lib"   /ERRORREPORT:PROMPT coredll.lib corelibc.lib ole32.lib oleaut32.lib uuid.lib commctrl.lib
+smart:  /OUT:"Smartphone 2003 (ARMV4)\DLL Release/libHttpCE.dll" /INCREMENTAL:NO /NOLOGO /DLL /MANIFEST:NO /NODEFAULTLIB:"oldnames.lib" /DEBUG /PDB:"Smartphone 2003 (ARMV4)\DLL Release/libHttpCE.pdb" /STACK:65536,4096 /OPT:REF /OPT:ICF /DYNAMICBASE:NO /IMPLIB:"Smartphone 2003 (ARMV4)\DLL Release/libHttpCE.lib" /ERRORREPORT:PROMPT coredll.lib corelibc.lib ole32.lib oleaut32.lib uuid.lib commctrl.lib
+
+
+WIN32 --> WINCE
+_WIN32_WCE=$(CEVER)

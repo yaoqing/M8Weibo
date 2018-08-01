@@ -1,0 +1,126 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+//
+IDB_PNG_HOME_BLUE                  RCDATA       "res\\home_blue.png"
+IDB_PNG_MESSAGE_BLUE               RCDATA       "res\\message_blue.png"
+IDB_PNG_USER_BLUE                  RCDATA       "res\\user_blue.png"
+IDB_PNG_MORE_BLUE                  RCDATA       "res\\more_blue.png"
+IDB_PNG_SETTINGS_BLUE              RCDATA       "res\\settings_blue.png"
+IDB_PNG_HOME_GREEN                 RCDATA       "res\\home_green.png"
+IDB_PNG_MESSAGE_GREEN              RCDATA       "res\\message_green.png"
+IDB_PNG_USER_GREEN                 RCDATA       "res\\user_green.png"
+IDB_PNG_MORE_GREEN                 RCDATA       "res\\more_green.png"
+IDB_PNG_SETTINGS_GREEN             RCDATA       "res\\settings_green.png"
+IDB_PNG_WRITE_BLUE                 RCDATA       "res\\write_blue.png"
+IDB_PNG_REFRESH_BLUE               RCDATA       "res\\refresh_blue.png"
+IDB_PNG_WRITE_GREEN                RCDATA       "res\\write_green.png"
+IDB_PNG_REFRESH_GREEN              RCDATA       "res\\refresh_green.png"
+IDB_PNG_SMALL_PICTURE              RCDATA       "res\\small_picture.png"
+IDB_PNG_SMALL_REPOST_BLUE          RCDATA       "res\\small_repost_blue.png"
+IDB_PNG_SMALL_COMMENT_BLUE         RCDATA       "res\\small_comment_blue.png"
+IDB_PNG_REPOST_BLUE                RCDATA       "res\\repost_blue.png"
+IDB_PNG_COMMENT_BLUE               RCDATA       "res\\comment_blue.png"
+IDB_PNG_REPOST_GREEN               RCDATA       "res\\repost_green.png"
+IDB_PNG_COMMENT_GREEN              RCDATA       "res\\comment_green.png"
+IDB_PNG_TOKEN_BOY                  RCDATA       "res\\token_boy.png"
+IDB_PNG_TOKEN_GIRL                 RCDATA       "res\\token_girl.png"
+IDB_PNG_GOBACK_BLUE                RCDATA       "res\\goback_blue.png"
+IDB_PNG_GOHOME_BLUE                RCDATA       "res\\home_blue.png"
+IDB_PNG_GOBACK_GREEN               RCDATA       "res\\goback_green.png"
+IDB_PNG_GOHOME_GREEN               RCDATA       "res\\home_green.png"
+IDB_PNG_SPEAKER_BLUE               RCDATA       "res\\speaker_blue.png"
+IDB_PNG_SPEAKER_GREEN              RCDATA       "res\\speaker_green.png"
+IDB_PNG_REMOVE_BLUE                RCDATA       "res\\remove_blue.png"
+IDB_PNG_REMOVE_GREEN               RCDATA       "res\\remove_green.png"
+IDB_PNG_STAR_BLUE                  RCDATA       "res\\star_blue.png"
+IDB_PNG_STAR_GREEN                 RCDATA       "res\\star_green.png"
+IDB_PNG_ARROW_GRAY                 RCDATA       "res\\arrow_gray.png"
+IDB_PNG_ARROW_WHITE                RCDATA       "res\\arrow_white.png"
+IDB_PNG_BOOK_BLUE                  RCDATA       "res\\book_blue.png"
+IDB_PNG_BOOK_GREEN                 RCDATA       "res\\book_green.png"
+IDB_PNG_CLIP_BLUE                  RCDATA       "res\\clip_blue.png"
+IDB_PNG_CLIP_GREEN                 RCDATA       "res\\clip_green.png"
+IDB_PNG_HEART_BLUE                 RCDATA       "res\\heart_blue.png"
+IDB_PNG_HEART_GREEN                RCDATA       "res\\heart_green.png"
+IDB_PNG_PUZZLE_BLUE                RCDATA       "res\\puzzle_blue.png"
+IDB_PNG_PUZZLE_GREEN               RCDATA       "res\\puzzle_green.png"
+IDB_PNG_CAMERA_BLUE                RCDATA       "res\\camera_blue.png"
+IDB_PNG_CAMERA_GREEN               RCDATA       "res\\camera_green.png"
+IDB_PNG_ATME_BLUE                  RCDATA       "res\\atme_blue.png"
+IDB_PNG_ATME_GREEN                 RCDATA       "res\\atme_green.png"
+IDB_PNG_TOME_BLUE                  RCDATA       "res\\tome_blue.png"
+IDB_PNG_TOME_GREEN                 RCDATA       "res\\tome_green.png"
+IDB_PNG_BG_TOOLBAR                 RCDATA       "res\\bg_toolbar.png"
+IDB_PNG_COVER                      RCDATA       "res\\M8WeiboCover.png"
+IDB_PNG_INTRO_0                    RCDATA       "res\\M8WeiboIntro0.png"
+IDB_PNG_INTRO_1                    RCDATA       "res\\M8WeiboIntro1.png"
+IDB_PNG_INTRO_2                    RCDATA       "res\\M8WeiboIntro2.png"
+IDB_PNG_INTRO_3                    RCDATA       "res\\M8WeiboIntro3.png"
+IDB_PNG_MALE                       RCDATA       "res\\male.png"
+IDB_PNG_FEMALE                     RCDATA       "res\\female.png"
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
